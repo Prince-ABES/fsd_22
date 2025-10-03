@@ -2,5 +2,19 @@
     padding: 0;
     margin: 0;
     box-sizing:content-box;
-    background-color: blue;
+
+}
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none; 
+    font-size: 1.25rem;
+    font-weight: 800;
+    
+}
+ul {
+    padding: 10px;
+    background-color: brown;
+    text-align: right;
 }
