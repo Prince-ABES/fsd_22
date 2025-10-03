@@ -4,6 +4,9 @@
     box-sizing:content-box;
 
 }
+body {
+    background-color: aliceblue;
+}
 li {
     display: inline-block;
 }
@@ -11,10 +14,11 @@ a {
     text-decoration: none; 
     font-size: 1.25rem;
     font-weight: 800;
-    
 }
 ul {
     padding: 10px;
     background-color: brown;
-    text-align: right;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
 }
